@@ -1,9 +1,11 @@
 div#root {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+    gap: 64px;
     background-color: var(--Red);
     background-image: url(../../assets/images/bg-intro-desktop.png);
 }

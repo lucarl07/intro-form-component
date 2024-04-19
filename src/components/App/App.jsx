@@ -1,4 +1,5 @@
 import Article from '../Article/Article';
+import Container from '../Container/Container';
 import './App.css'
 
 const App = () => {
@@ -10,6 +11,9 @@ const App = () => {
     return (
         <>
             <Article title={data.title} content={data.content} />
+            <Container>
+                <p>Lorem ipsum</p>
+            </Container>
         </>
     );
 }
