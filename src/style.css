@@ -1,0 +1,41 @@
+/* CodeNet - Global Style Sheet: */
+
+:root {
+  /** Primary Colors: **/
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+
+  /** Accent Colors: **/
+  --Blue: hsl(248, 32%, 49%);
+
+  /** Neutral Colors: **/
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+
+  /** Font Sizes: **/
+  --P-Size: 16px;
+}
+
+@font-face {
+  font-family: "Poppins 400";
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins 500";
+  src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins 600";
+  src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Poppins 700";
+  src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins 400', sans-serif;
+}
