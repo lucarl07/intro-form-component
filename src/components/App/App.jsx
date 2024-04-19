@@ -1,4 +1,5 @@
 import Article from '../Article/Article';
+import Button from '../Button/Button';
 import Container from '../Container/Container';
 import Input from '../Input/Input';
 import './App.css'
@@ -17,6 +18,7 @@ const App = () => {
                 <Input type='text' placeholder='Last name' />
                 <Input type='text' placeholder='Email address' />
                 <Input type='password' placeholder='password' />
+                <Button value='Claim your free trial' />
             </Container>
         </>
     );

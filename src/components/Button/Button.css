@@ -1,0 +1,17 @@
+.btn {
+    height: 52px;
+    border: 1px solid hsl(154, 59%, 44%);
+    border-bottom-width: 4px;
+    border-radius: 6px;
+    background-color: var(--Green);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins 600';
+    letter-spacing: 1px;
+}
+.btn:active {
+    cursor: pointer;
+    margin-top: 3px;
+    height: 49px;
+    border-bottom-width: 1px;
+}
