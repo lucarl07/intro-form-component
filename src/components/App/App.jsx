@@ -2,6 +2,7 @@ import Article from '../Article/Article';
 import Button from '../Button/Button';
 import Container from '../Container/Container';
 import Input from '../Input/Input';
+import ToS from '../ToS/ToS';
 import './App.css'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
                 <Input type='text' placeholder='Email address' />
                 <Input type='password' placeholder='password' />
                 <Button value='Claim your free trial' />
+                <ToS/>
             </Container>
         </>
     );

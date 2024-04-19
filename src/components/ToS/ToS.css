@@ -1,0 +1,7 @@
+.tos {
+    display: inline-flex;
+    gap: 5px;
+    text-align: center;
+    font-family: 'Poppins 500';
+    font-size: 12px;
+}
