@@ -1,5 +1,6 @@
 import Article from '../Article/Article';
 import Container from '../Container/Container';
+import Input from '../Input/Input';
 import './App.css'
 
 const App = () => {
@@ -12,7 +13,10 @@ const App = () => {
         <>
             <Article title={data.title} content={data.content} />
             <Container>
-                <p>Lorem ipsum</p>
+                <Input type='text' placeholder='First name' />
+                <Input type='text' placeholder='Last name' />
+                <Input type='text' placeholder='Email address' />
+                <Input type='password' placeholder='password' />
             </Container>
         </>
     );

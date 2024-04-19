@@ -1,0 +1,11 @@
+.input {
+    padding: 0 24px;
+    height: 52px;
+    color: var(--Dark-Blue);
+    border: 1px solid var(--Grayish-Blue);
+    border-radius: 6px;
+    font-family: 'Poppins 600';
+}
+.input:active {
+    border: 1px solid var(--Dark-Blue);
+}

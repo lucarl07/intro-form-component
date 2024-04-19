@@ -4,6 +4,7 @@
     padding: 2rem;
     width: 550px;
     height: 450px;
+    gap: 1rem;
     border-radius: 10px;
     background-color: white;
 }
